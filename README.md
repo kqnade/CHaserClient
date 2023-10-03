@@ -89,4 +89,4 @@ Run.
 That's all.
 
 ## License
-DivineWeavers Chaser Agent Client © 2023 by kqnade is licensed under Attribution-NonCommercial-ShareAlike 4.0 International 
+Copyright (c) 2021, U-16 Programming Contest Kushiro Tournament Executive Committee All rights reserved.
