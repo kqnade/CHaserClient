@@ -37,13 +37,13 @@ DivineWeavers
 │   │   ├── item (探索済み未取得アイテム座標)
 │   │   └── nosearched (未探索マスとその座標)
 │   │
-|   └── Lachesis_action (行動決定用クラス)
+|   └── Lachesis_action (行動補助クラス)
 │       ├── initialize (変数初期化)
 │       ├── priority (優先順位決定)
 │       └──  router (ルート探索)
 | 
 └── Ultimavand.rb
-    └── Atropos (行動決定用クラス)
+    └── Atropos (行動クラス)
         ├── initialize (変数初期化)
         ├── cds (袋小路確認)
         └── move (移動)
@@ -89,4 +89,5 @@ Run.
 That's all.
 
 ## License
+
 Copyright (c) 2021, U-16 Programming Contest Kushiro Tournament Executive Committee All rights reserved.
