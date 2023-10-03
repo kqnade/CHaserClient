@@ -31,13 +31,13 @@ DivineWeavers
 │       └── searchupdate (マップ更新 - search)
 │
 ├── Eterayer.rb
-│   ├── Lachesis_map (マップ処理クラス)
+│   ├── Lachesis_c (マップ処理クラス / Clothoからの情報を処理)
 │   │   ├── initialize (変数初期化)
 │   │   ├── prevmove (前回行動からの引き継ぎ)
 │   │   ├── item (探索済み未取得アイテム座標)
 │   │   └── nosearched (未探索マスとその座標)
 │   │
-|   └── Lachesis_action (行動補助クラス)
+|   └── Lachesis_a (行動補助クラス / Lachesis_cの処理内容をAtroposに渡す)
 │       ├── initialize (変数初期化)
 │       ├── priority (優先順位決定)
 │       └──  router (ルート探索)
